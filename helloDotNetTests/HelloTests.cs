@@ -16,5 +16,11 @@ namespace helloDotNetTests
 
             Assert.AreEqual("test", returnedTestProperty);
         }
+
+        [TestMethod]
+        public void SecondTest_ShouldFail()
+        {
+            Assert.AreEqual("test", "wrong");
+        }
     }
 }
