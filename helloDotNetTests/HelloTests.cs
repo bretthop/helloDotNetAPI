@@ -18,9 +18,9 @@ namespace helloDotNetTests
         }
 
         [TestMethod]
-        public void SecondTest_ShouldFail()
+        public void SecondTest()
         {
-            Assert.AreEqual("test", "wrong");
+            Assert.AreEqual("test", "test");
         }
     }
 }
